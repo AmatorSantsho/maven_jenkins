@@ -13,34 +13,23 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
     </properties>
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-resources-plugin</artifactId>
-            <version>2.6</version>
-            <configuration>
-                <encoding>UTF-8</encoding>
-            </configuration
-            >
-        </plugin>
-    </plugins>
-</build>
-    <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>junit</groupId>-->
-            <!--<artifactId>junit</artifactId>-->
-            <!--<version>4.12</version>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+
+    <!--<dependencies>-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>junit</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>junit</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>4.12</version>&ndash;&gt;-->
+            <!--&lt;!&ndash;<scope>test</scope>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>org.testng</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>testng</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>6.14.3</version>&ndash;&gt;-->
+            <!--&lt;!&ndash;<scope>test</scope>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+    <!--</dependencies>-->
 
 
     <packaging>pom</packaging>
