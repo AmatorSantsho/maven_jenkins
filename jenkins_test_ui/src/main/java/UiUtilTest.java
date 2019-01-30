@@ -1,6 +1,8 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
+/*
+After Gradle remove
+ */
 public class UiUtilTest {
     UiUtil uiUtil =new UiUtil();
 
